@@ -4,7 +4,7 @@ public class test {
 
 	public static void main(String[] args) {
 		
-		figure tri = new equilateral(5);
+		figure tri = new right(12, 9);
 		
 		tri.print();
 		
