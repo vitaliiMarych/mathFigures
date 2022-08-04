@@ -2,7 +2,8 @@ package figures;
 
 public abstract class figure {
 	//variables
-	protected String type;
+	protected String type = "None";
+	protected String subType = "None";
 	
 	//geters
 	public String getType() { return type; }
