@@ -14,8 +14,7 @@ public class triangle extends figure {
 	
 	public void print() {
 		System.out.println("a = " + s[0] + ", b = " + s[1] + ", c = " + s[2]);
-		System.out.println("squad = " + this.calculateSquad() + ", perimeter = " + this.calculatePerimeter());
-		System.out.println("type = " + this.type + ", sub type = " + this.subType);
+		super.print();
 	}
 	
 	public double calculateSquad() {
