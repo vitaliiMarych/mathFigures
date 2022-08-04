@@ -4,7 +4,7 @@ public class test {
 
 	public static void main(String[] args) {
 		
-		triangle tri = new isosceles(5,3);
+		figure tri = new equilateral(5);
 		
 		tri.print();
 		
