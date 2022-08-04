@@ -10,7 +10,7 @@ public abstract class quadrilateral extends figure{
 	
 	public void print() {
 		
-		System.out.print("a = " + s[0] + ", b = " + s[1] + ", c = " + s[2] + ", d = " + s[3]);
+		System.out.println("a = " + s[0] + ", b = " + s[1] + ", c = " + s[2] + ", d = " + s[3]);
 		super.print();
 	}
 	
